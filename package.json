@@ -1,0 +1,24 @@
+{
+  "name": "my-node-ts-hapi-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application using TypeScript and Hapi framework.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "@types/hapi__hapi": "^20.0.0"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "license": "MIT"
+}
